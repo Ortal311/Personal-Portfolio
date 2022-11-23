@@ -315,6 +315,10 @@ h3.my-proffesion {
 }
 
 /*about*/
+
+.about {
+  min-height: 100vh;
+}
 .about .about-content {
   flex: 0 0 100%;
   max-width: 100%;
@@ -370,4 +374,39 @@ h3.my-proffesion {
 
 .about .about-content .personal-info .buttons {
   margin-top: 30px;
+}
+
+/*skills*/
+
+.skills .skills-content {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.skills .skills-content h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: var(--text-black-900);
+}
+
+.skills .skills-content .known-language {
+  max-width: 100%;
+  flex: 0 0 100%;
+}
+
+.skills .skills-content .known-language .skills-language-item {
+  padding: 30px 70px;
+  max-width: 100%;
+}
+
+.lan-name {
+  padding: 10px 0;
+  margin: 0 0 6px 0;
+  text-transform: capitalize;
+  display: block;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #45505b;
+  text-align: center;
 }
